@@ -11,7 +11,7 @@ app.controller("Ctrl1", function ($scope, $http) {
         $scope.desc="";
         $http({
             method: 'GET',
-            url: 'https://sleepy-ridge-71160.herokuapp.com/get1?url=' + $scope.url
+            url: 'https://infinite-ravine-77201.herokuapp.com/get1?url=' + $scope.url
         }).then(function successCallback(response) {
             console.log(response.data);
             
